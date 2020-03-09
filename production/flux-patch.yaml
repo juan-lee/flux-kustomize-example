@@ -4,5 +4,6 @@ kind: Deployment
 metadata:
   annotations:
     fluxcd.io/automated: "true"
+    foo.io/bar: "foobar"
   name: podinfo
   namespace: demo
