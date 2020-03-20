@@ -18,5 +18,5 @@ spec:
       - image: juanlee/podinfo:v0.1.4
         name: podinfod
       initContainers:
-      - image: alpine:3.8
+      - image: alpine:20200319
         name: init
